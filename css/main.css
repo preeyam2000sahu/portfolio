@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Dosis", sans-serif;
+  line-height: 1.6; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+#header-home {
+  background: url("../img/showcase4.jpeg") center center/cover no-repeat;
+  position: relative;
+  height: 100vh;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(1, auto); }
+  #header-home a {
+    color: white; }
+  #header-home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85); }
+
+.showcase {
+  height: 75vh;
+  z-index: 1; }
+
+.elevate {
+  z-index: 2; }
+
+.navbar {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+  padding: 10px 30px;
+  font-weight: 300; }
+  .navbar ul {
+    display: flex;
+    justify-content: space-evenly; }
+  .navbar li {
+    padding: 20px 0;
+    padding-left: 40px;
+    padding-right: 0; }
+    .navbar li a {
+      color: white;
+      padding: 10px 0; }
+      .navbar li a:hover {
+        border-bottom: 3px #ccc solid; }
+  .navbar .logo {
+    padding: 10px 0; }
+    .navbar .logo img {
+      height: 70px;
+      margin: auto; }
+
+.current {
+  border-bottom: 3px #ffbc00 solid; }
+
+.showcase .container {
+  display: flex;
+  justify-content: center; }
+
+#terminal {
+  padding-top: 380px;
+  padding-right: 25px; }
+
+.container {
+  padding: 10px 10px;
+  width: 100%;
+  height: 100%; }
+
+#footer {
+  background: #333;
+  color: white; }
+  #footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  #footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+  #footer li {
+    margin: auto 10px; }
+  #footer i {
+    color: white;
+    margin: 5px; }
+    #footer i:hover {
+      color: gray; }
+
+.value {
+  color: darkorange; }
+
+.attr {
+  color: lightskyblue; }
+
+.tag {
+  color: deepskyblue; }
+
+.trial {
+  background: #333;
+  padding: 10px 10px; }
+
+.outerbox {
+  height: 300px;
+  width: 500px;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  padding: 10px 10px;
+  border-radius: 5px; }
+
+.innerbox {
+  height: 100%;
+  width: 100%;
+  background: #202746;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+code {
+  font-family: monospace; }
+
+.cv-code {
+  content-visibility: auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #1f1e1e;
+  width: 900px;
+  max-width: 95%;
+  margin: 0 auto; }
+  .cv-code-header {
+    display: flex;
+    align-items: center;
+    background: #393d3e;
+    color: #eee;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 0.5rem 0.5rem 0 0;
+    position: relative;
+    font-family: "JetBrains Mono", monospace; }
+  .cv-code-buttons {
+    margin-right: 1rem;
+    display: flex;
+    gap: 6px; }
+    .cv-code-buttons .fake-button[data-close] {
+      width: 0.7rem;
+      height: 0.7rem;
+      border-radius: 50%;
+      background: #f77669; }
+    .cv-code-buttons .fake-button[data-minify] {
+      width: 0.7rem;
+      height: 0.7rem;
+      border-radius: 50%;
+      background: #ffcb6b; }
+    .cv-code-buttons .fake-button[data-expand] {
+      width: 0.7rem;
+      height: 0.7rem;
+      border-radius: 50%;
+      background: #c3e88d; }
+  .cv-code-title {
+    margin: 0 auto;
+    display: block; }
+  .cv-code .content {
+    color: white;
+    padding: 1rem;
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-size: 0.8rem; }
+    .cv-code .content .instruction {
+      display: block;
+      padding: 0 0 7px 0; }
+    .cv-code .content .user {
+      color: #6db928; }
+    .cv-code .content .path,
+    .cv-code .content .command {
+      color: #6fa5cd; }
+      .cv-code .content .path a,
+      .cv-code .content .command a {
+        color: #6fa5cd; }

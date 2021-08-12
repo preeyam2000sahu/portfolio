@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/second.css" />
+    <title>About</title>
+  </head>
+
+  <body>
+    <div class="back">
+      <header id="sticky">
+        <nav class="navbar">
+          <div class="logo"></div>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./work.html">WORK</a></li>
+            <li><a href="./projects.html" class="current">PROJECTS</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div id="projects">
+        <div class="emptycard-nocard">
+          <div class="card" id="project-creator">
+            <img
+              src="./img/about-logos/projects.jpeg"
+              style="
+                border-radius: 50%;
+                background: black;
+                padding: 5px;
+                display: block;
+                max-width: 50%;
+                max-height: 50%;
+              "
+            />
+            <a href="https://github.com/preeyam2000sahu" target="_blank">
+              <div id="github"><i class="fab fa-github"></i> Github</div>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/preeyam-sahu-221718171/"
+              target="_blank"
+            >
+              <div id="github"><i class="fab fa-linkedin"></i> Linkedin</div>
+            </a>
+            <!-- <a
+              href="https://github.com/preeyam2000sahu/Facial_Expression_Classifier"
+              target="_blank"
+            >
+              <div id="github"><i class="fab fa-codepen"></i> Codepen</div>
+            </a> -->
+          </div>
+          <div></div>
+        </div>
+        <div class="emptycard" id="projects-list">
+          <div class="card" id="project-card">
+            <div>
+              <h2 id="project-title">Human Emotion Recogniser</h2>
+
+              <div id="desc">
+                CNN inspired from VGG16 and Alexnet architectures aimed at
+                modelling and classifying human facial expressions from
+                grayscale 48x48 images from a dataset on kaggle
+              </div>
+            </div>
+            <a
+              href="https://github.com/preeyam2000sahu/Facial_Expression_Classifier"
+              target="_blank"
+              ><div id="github"><i class="fab fa-github fa-3x"></i></div
+            ></a>
+
+            <!-- <div id="hashtags"></div> -->
+          </div>
+          <div class="card" id="project-card">
+            <div>
+              <h2 id="project-title">Human Activity Classifier</h2>
+
+              <div id="desc">
+                An LSTM implementation aimed to model a Human Activity Project
+                dataset that provide us features like
+                acceleration,velocity,position,etc in x,y,z axes as a time
+                series across 128 seconds for each subject that participated in
+                the experiment
+              </div>
+            </div>
+
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <a
+                href="https://github.com/preeyam2000sahu/Human-Activity-Classifier"
+                target="_blank"
+              >
+                <div id="github"><i class="fab fa-github fa-3x"></i></div>
+              </a>
+
+              <!-- <div id="hashtags">aaaaaaaaaaaaaaaaaaaaaa</div> -->
+            </div>
+          </div>
+          <div class="card" id="project-card">
+            <div>
+              <h2 id="project-title">Github Finder</h2>
+
+              <div id="desc">
+                Webapp that allows you to search for Github profiles using their
+                userid/name
+              </div>
+            </div>
+            <a
+              href="https://github.com/preeyam2000sahu/GithubFinder"
+              target="_blank"
+            >
+              <div id="github"><i class="fab fa-github fa-3x"></i></div>
+            </a>
+
+            <!-- <div id="hashtags"></div> -->
+          </div>
+          <div class="card" id="project-card">
+            <div>
+              <h2 id="project-title">Smart-Lighting-System</h2>
+
+              <div id="desc">
+                Designed a lighting system for a conference hall. This was done
+                using the 8086 processor and the 8255 peripheral.
+              </div>
+              <!-- The lights for each row turn on when a person enters the hall. This is
+                        detected using IR sensors. The lights remain on as long as there are people in the row. The lights go off when the
+                        entire row empties completely -->
+            </div>
+            <a
+              href="https://github.com/preeyam2000sahu/Smart-Lighting-System"
+              target="_blank"
+            >
+              <div id="github"><i class="fab fa-github fa-3x"></i></div>
+            </a>
+
+            <!-- <div id="hashtags"></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
